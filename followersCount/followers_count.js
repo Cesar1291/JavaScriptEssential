@@ -17,3 +17,9 @@ function checkCountValue(){
         alert("Tu publicacion de instagram gano 20 seguidores");
     }
 }
+
+function resetCount(){
+    count = 0;
+    document.getElementById('countDisplay').innerHTML = count;
+    alert("Tu publicación se ha reseteado");
+}
